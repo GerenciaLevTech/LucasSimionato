@@ -3,145 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Simionato - Fisioterapia</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Lucas Simionato - Fisioterapia | Recupere sua Qualidade de Vida</title>
+    <meta name="description" content="Fisioterapia especializada para recuperar sua qualidade de vida em até 30 dias. Tratamento personalizado com resultados comprovados.">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo">Lucas Simionato</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produto</a></li>
-                <li><a href="#">Loja</a></li>
-                <li><a href="#">Sobre Mim</a></li>
-            </ul>
-        </nav>
-        <div class="menu-icon"><i class="fas fa-bars"></i></div>
-    </header>
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">Lucas Simionato</div>
 
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Recupere sua<br><span>Qualidade de vida</span><br>em até <span>30 dias</span></h1>
-            <p>Ajudamos você a voltar aos movimentos sem dor, com confiança e vitalidade de vida.</p>
-            <a href="#" class="btn-cta">Conheça nossos serviços.</a>
-            
-            <div class="social-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-whatsapp"></i>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">HOME</a></li>
+                    <li><a href="#produto" class="nav-link">PRODUTO</a></li>
+                    <li><a href="#loja" class="nav-link">LOJA</a></li>
+                    <li><a href="#sobre" class="nav-link">SOBRE MIM</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <h1 class="hero-title">
+                    Recupere sua<br>
+                    <span class="highlight">Qualidade de vida</span><br>
+                    em até <span class="highlight">30 dias</span>
+                </h1>
+                <p class="hero-description">
+                    Ajudamos você a voltar aos movimentos sem dor, com confiança e vitalidade de vida.
+                </p>
+                <a href="#contato" class="btn-primary">
+                    Conheça nossos serviços
+                </a>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <div class="hero-image">
-            <img src="assets/Lucas.png" alt=" Dr. Lucas Simionato">
-        </div>
-    </section>
-
-    <section class="stats-bar">
-        <div class="stat-item">
-            <h3>+500</h3>
-            <p>Clientes Felizes</p>
-        </div>
-        <div class="stat-item">
-            <h3>+05</h3>
-            <p>Anos de Experiência</p>
-        </div>
-        <div class="stat-item">
-            <h3>+500</h3>
-            <p>Casos Resolvidos</p>
-        </div>
-    </section>
-
-    <section class="pain-section">
-        <div class="pain-bg"></div> 
-        <div class="pain-content">
-            <h2 class="pain-title">Você já se pegou nessa situação? Se sim,<br>tenho uma pergunta para te fazer....</h2>
-            
-            <img src="assets/homem sentindo dor.png" alt="Dor nas costas" class="pain-main-img">
-
-            <div class="arrow-down"><i class="fas fa-arrow-down"></i></div>
-
-            <div class="questions-grid">
-                <div class="question-card">
-                    <span class="question-number">1</span>
-                    Você sente dores frequentes, que só mascaram com remédios e depois voltam?
-                </div>
-                <div class="question-card">
-                    <span class="question-number">2</span>
-                    Você já fez exames, tomou remédios, mas a dor sempre volta? Falta um plano de reabilitação?
-                </div>
-                <div class="question-card">
-                    <span class="question-number">3</span>
-                    Você precisa por cirurgia ou lesão e não sabe como voltar ao normal com segurança?
-                </div>
-                <div class="question-card">
-                    <span class="question-number">4</span>
-                    Você acorda com dores ou rigidez, sentindo que "é normal para a sua idade"?
-                </div>
-                <div class="question-card">
-                    <span class="question-number">5</span>
-                    Você considera a má postura, excesso de celular ou ficar muito tempo sentado?
-                </div>
-                <div class="question-card">
-                    <span class="question-number">6</span>
-                    Você quer melhorar sua qualidade de vida e evitar dores? A fisioterapia também atua na prevenção.
-                </div>
-                <div class="question-card">
-                    <span class="question-number">7</span>
-                    Você evita ter medo para trabalhar, treinar ou fazer tarefas simples do dia a dia? A fisioterapia devolve movimento.
+            <div class="hero-image" data-aos="fade-left">
+                <div class="image-wrapper">
+                    <div class="image-bg"></div>
+                    <img src="imgs/Lucas.png" alt="Dr. Lucas Simionato - Fisioterapeuta" class="doctor-image">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="services-section">
-        <h2 class="section-title">Areas de atuação</h2>
-        
-        <div class="services-container">
-            <div class="services-img">
-                <img src="assets/mulher se alongando.png" alt="Exercício Fisioterapia">
+<!-- STATS SECTION -->
+<section class="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+                <h3 class="stat-number">+500</h3>
+                <p class="stat-label">CLIENTES FELIZES</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="stat-number">+05</h3>
+                <p class="stat-label">ANOS DE EXPERIÊNCIA</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="stat-number">+500</h3>
+                <p class="stat-label">CASOS RESOLVIDOS</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PAIN POINTS SECTION -->
+<section class="pain-section">
+    <div class="pain-bg-wave"></div>
+
+    <div class="container">
+        <h2 class="section-title text-center" data-aos="fade-down">
+            Você já se pegou nessa situação? Se sim,<br>
+            tenho uma pergunta para te fazer....
+        </h2>
+
+        <div class="pain-image-container" data-aos="zoom-in">
+            <img src="imgs/homem-sentindo-dor.png" alt="Pessoa com dor nas costas" class="pain-image">
+        </div>
+
+        <div class="arrow-indicator" data-aos="fade-down" data-aos-delay="300">
+            <i class="fas fa-arrow-down"></i>
+        </div>
+
+        <div class="questions-grid">
+            <div class="question-card" data-aos="fade-up" data-aos-delay="0">
+                <span class="question-number">1</span>
+                <p>Você sente dores frequentes, que só mascaram com remédios e depois voltam?</p>
             </div>
 
-            <div class="services-list">
+            <div class="question-card" data-aos="fade-up" data-aos-delay="100">
+                <span class="question-number">2</span>
+                <p>Você já fez exames, tomou remédios, mas a dor sempre volta? Falta um plano de reabilitação?</p>
+            </div>
+
+            <div class="question-card" data-aos="fade-up" data-aos-delay="200">
+                <span class="question-number">3</span>
+                <p>Você passou por cirurgia ou lesão e não sabe como voltar ao normal com segurança?</p>
+            </div>
+
+            <div class="question-card" data-aos="fade-up" data-aos-delay="300">
+                <span class="question-number">4</span>
+                <p>Você acorda com dores ou rigidez, sentindo que "é normal para a sua idade"?</p>
+            </div>
+
+            <div class="question-card" data-aos="fade-up" data-aos-delay="400">
+                <span class="question-number">5</span>
+                <p>Você considera a má postura, excesso de celular ou ficar muito tempo sentado?</p>
+            </div>
+
+            <div class="question-card" data-aos="fade-up" data-aos-delay="500">
+                <span class="question-number">6</span>
+                <p>Você quer melhorar sua qualidade de vida e evitar dores? A fisioterapia também atua na prevenção.</p>
+            </div>
+
+            <div class="question-card" data-aos="fade-up" data-aos-delay="600">
+                <span class="question-number">7</span>
+                <p>Você evita ter medo para trabalhar, treinar ou fazer tarefas simples do dia a dia? A fisioterapia devolve movimento.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="servicos" class="services-section">
+    <div class="wave-top"></div>
+
+    <div class="container">
+        <h2 class="section-title text-center" data-aos="fade-down">
+            Áreas de atuação
+        </h2>
+
+        <div class="services-content">
+            <div class="services-image" data-aos="fade-right">
+                <img src="imgs/mulher-se-alongando.png" alt="Exercícios de Fisioterapia">
+            </div>
+
+            <div class="services-list" data-aos="fade-left">
                 <ul>
-                    <li>Fisioterapia Ortopédica</li>
-                    <li>Fisioterapia Traumatológica</li>
-                    <li>Fisioterapia Esportiva</li>
-                    <li>Fisioterapia Reumatológica</li>
-                    <li>Fisioterapia Respiratória</li>
-                    <li>Reeducação Postural</li>
-                    <li>Liberação Miofascial</li>
-                    <li>Fisioterapia Geriátrica</li>
-                    <li>Fisioterapia Preventiva</li>
-                    <li>Fisioterapia Pós-operatório</li>
+                    <li><i class="fas fa-check-circle"></i> Fisioterapia Ortopédica</li>
+                    <li><i class="fas fa-check-circle"></i> Fisioterapia Traumatológica</li>
+                    <li><i class="fas fa-check-circle"></i> Fisioterapia Esportiva</li>
+                    <li><i class="fas fa-check-circle"></i> Fisioterapia Reumatológica</li>
+                    <li><i class="fas fa-check-circle"></i> Fisioterapia Respiratória</li>
+                    <li><i class="fas fa-check-circle"></i> Reeducação Postural</li>
+                    <li><i class="fas fa-check-circle"></i> Liberação Miofascial</li>
+                    <li><i class="fas fa-check-circle"></i> Fisioterapia Geriátrica</li>
+                    <li><i class="fas fa-check-circle"></i> Fisioterapia Preventiva</li>
+                    <li><i class="fas fa-check-circle"></i> Fisioterapia Pós-operatório</li>
                 </ul>
             </div>
         </div>
 
-        <div class="cta-center">
-            <a href="#" class="btn-cta">Agende o seu horário.</a>
+        <div class="cta-center" data-aos="fade-up">
+            <a href="#contato" class="btn-primary">
+                Agende o seu horário
+            </a>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="app-section">
-        <div class="app-image-container">
-            <img src="assets/celular.png" alt="App ilustracao">
+<!-- APP/PHONE SECTION -->
+<section class="app-section">
+    <div class="container">
+        <div class="app-content">
+            <div class="app-phone" data-aos="fade-right">
+                <div class="phone-mockup">
+                    <img src="imgs/celular.png" alt="Aplicativo de Fisioterapia">
+                </div>
+            </div>
+
+            <div class="app-text" data-aos="fade-left">
+                <h2>Lucas Simionato – Fisioterapia que cuida de você por completo!</h2>
+                <p>
+                    Avaliação personalizada, tratamento focado na causa da dor e acompanhamento
+                    profissional para melhorar sua mobilidade, reduzir dores e aumentar sua
+                    qualidade de vida.
+                </p>
+                <a href="#contato" class="btn-primary">
+                    Agende seu horário
+                </a>
+            </div>
         </div>
+    </div>
+</section>
 
-        <div class="app-text">
-            <h2>Lucas Simionato – Fisioterapia que cuida de você por completo!</h2>
-            <p>Avaliação personalizada, tratamento focado na causa da dor e acompanhamento profissional para melhorar sua mobilidade, reduzir dores e aumentar sua qualidade de vida.</p>
-        </div>
-    </section>
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-text">
+            TODOS OS DIREITOS RESERVADOS A @LEVTECH
+        </p>
+    </div>
+</footer>
 
-    <footer>
-        TODOS OS DIREITOS RESERVADOS A @LEVTECH
-    </footer>
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/5519999999999" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
 
+<!-- AOS Animation Library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="script.js"></script>
 </body>
 </html>
